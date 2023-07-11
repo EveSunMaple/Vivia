@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'YunFont';
+    font-display: swap;
+    src: url('/fonts/YunFont.ttf') format("truetype");  
+  }
+@font-face {
+    font-family: 'CodeFont';
+    font-display: swap;
+    src: url('/fonts/CodeFont.ttf') format("truetype");  
+  }

@@ -1,0 +1,246 @@
+#page-header {
+    #nav {
+      // 固定在顶端
+      &.show {
+        position: fixed;
+        top: 0;
+      }
+      filter: none;
+      padding: 0 5%;
+      /* 左侧文字 */
+      /* ================================= */
+      .nav-group {
+        flex:1;
+        display: flex;
+        justify-content: flex-start;
+        #blog_name {
+          position: relative;
+          display: inline-block;
+          font-size: 1.5em;
+          a#site-name {
+            &:hover {
+              border-radius: 15px;
+              transition: 0.1s;
+              color: var(--white) !important;
+              background: var(--blue) !important;
+              &>a {
+                color: var(--white) !important;
+              }
+              span#site-name-icon {
+                opacity: 0;
+              }
+              &:after {
+                opacity: 1;
+              }
+            }
+            span#site-name-icon {
+              transition: .2s;
+              opacity: 1;
+              padding: 5px 0;
+            }
+            &:after {
+              background: url(/img/home.png) no-repeat 50% 50%;
+              opacity: 0;
+              position: absolute;
+              display: flex;
+              top: 0;
+              width: 132px;
+              height: 100%;
+              z-index: 1;
+              content: "";
+              transition: .2s;
+              transition-timing-function: ease-in;
+            }
+          }
+        }
+      }
+      
+      /* 中间菜单 */
+      /* ================================= */
+      #menus {
+        #page_name {
+          position: absolute;
+          justify-content: center;
+          align-items: center;
+          transform: translateY(-60px);
+          &>a {
+            font-weight: bold;
+            letter-spacing: 2px;
+            padding: 5px 10px;
+            &:hover {
+              color: var(--white) !important;
+              background: var(--blue) !important;
+              border-radius: var(--fillet);
+            }
+          }
+          
+        }
+        flex:3;
+        display: flex;
+        justify-content: center;
+        /* 垂直居中 */
+        .menus_items {
+          display: flex;
+          align-items: center;
+          .menus_item {
+            padding: 0 5px;
+            &>a.site-page {
+              display: flex;
+              align-items: center;
+              height: 2.5em;
+              padding: 0 5px;
+              span {
+                margin-left: 4px;
+              }
+            }
+            /* 鼠标移上去效果 */
+            &:hover {
+              border-radius: 15px;
+              transition: 0.1s;
+              color: var(--white) !important;
+              background: var(--blue) !important;
+              // border: 1px solid var(--white);
+              &>a {
+                color: var(--white) !important;
+              }
+            }
+            /* 下拉菜单 */
+            /* ==================== */
+            /* 下拉菜单鼠标移上去效果 */
+            ul.menus_item_child {
+              padding: 8px 12px;
+              border-radius: 15px;
+              border: 1px solid var(--blue);
+              li {
+                display: flex;
+                border-radius: 15px;
+                &:hover {
+                    background: var(--blue) !important;
+                    a.site-page.child {
+                      color: var(--white) !important;
+                    }
+                  }
+                a.site-page.child {
+                  padding: 1px 10px;
+                  align-items: center;
+                }
+              }
+            }
+          }
+        }
+      }
+      /* 右侧按钮 */
+      /* ================================= */
+      #nav-right {
+        flex:1;
+        display: flex;
+        justify-content: flex-end;
+        a.site-page {
+          height: 2.5em;
+          width: 2.5em;
+          padding: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 40px;
+          position: relative;
+          cursor: pointer;
+          i {
+            font-size: 1.3rem;
+          }
+          svg {
+            height: 27px;
+          }
+          &:hover {
+            background: var(--blue) !important;
+            svg path {
+              fill: var(--white) !important;
+            }
+            i {
+              color: var(--white) !important;
+            }
+          }
+        }
+      }
+      /* 取消下划线 */
+      .site-page:not(.child):after {
+        display: none;
+      }
+    }
+    // 颜色
+    &.full_page,
+    &.not-home-page,
+    &.post-bg {
+      #nav #nav-right a.site-page svg path {
+        fill: #eee;
+      }
+      &.nav-fixed {
+        #nav #nav-right a.site-page svg path {
+          fill: #4b4948;
+        }
+      }
+    }
+    &.not-home-page {
+      &.nav-fixed #nav #nav-right a.site-page svg path {
+        fill: #4b4948;
+      }
+    }
+    &.not-top-img {
+      #nav #nav-right a.site-page svg path {
+        fill: #4c4948;
+      }
+      &.nav-fixed #nav #nav-right a.site-page svg path {
+        fill: #4b4948;
+      }
+    }
+    // 滑动标题显示于隐藏
+    &.full_page,
+    &.not-home-page,
+    &.post-bg,
+    &.not-home-page,
+    &.not-top-img {
+      &.nav-fixed {
+        #page_name {
+          transform: translateY(0px) !important;
+          transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        }
+        .menus_items {
+          transform: translateY(-60px) !important;
+          transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        }
+        &.nav-visible {
+          #page_name {
+            transform: translateY(-60px) !important;
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+          }
+          .menus_items {
+            transform: translateY(0px) !important;
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+          }
+        }
+        #nav.show {
+          background-color: var(--global-bg);
+        }
+      }
+      #page_name {
+        cursor: pointer;
+      }
+    }
+    // 取消滚动动画
+    &.nav-visible #nav {
+      transform: none;
+    }
+  }
+  [data-theme='dark'] #page-header {
+    &.full_page,
+    &.not-home-page,
+    &.not-top-img,
+    &.post-bg {
+      #nav #nav-right a.site-page svg path {
+        fill: rgba(255,255,255,0.7);
+      }
+      &.nav-fixed #nav #nav-right a.site-page svg path {
+        fill: rgba(255,255,255,0.7);
+      }
+    }
+  }

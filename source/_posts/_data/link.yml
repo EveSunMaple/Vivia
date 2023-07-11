@@ -1,0 +1,19 @@
+- class_name: 推荐博客
+  flink_style: flexcard
+  link_list:
+    - name: 安知鱼`Blog
+      link: https://anzhiy.cn/
+      avatar: https://img02.anzhiy.cn/adminuploads/1/2022/09/15/63232b7d91d22.jpg
+      descr: 生活明朗，万物可爱
+    - name: ayublog`Blog
+      link: https://www.ayublog.xyz/
+      avatar: https://www.ayublog.xyz/wp-content/uploads/2023/05/touxiang.png
+      descr: If life is done programmatically, I will try to debug it.
+    - name: Echo 的小窝
+      link: https://www.liveout.cn/
+      avatar: https://yy.liveout.cn/photo/photo2.jpg
+      descr: 漂泊于互联中的一个小窝
+    - name: 张洪Heo
+      link: https://blog.zhheo.com/
+      avatar: https://bu.dusays.com/2022/12/28/63ac2812183aa.png
+      descr: https://blog.zhheo.com/

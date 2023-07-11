@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    #nav #menus {
+      display: none !important;
+    }
+    #nav .nav-group #blog_name {
+      font-size: 1.2em !important;
+    }
+    #sidebar-menus .menus_items .menus_item .site-page > i {
+      text-align: center !important;
+    }
+    #content-inner #recent-posts .recent-post-item {
+      height: 20em !important;
+    }
+    .article-sort .article-sort-item .article-sort-item-info .article-sort-item-index {
+      display: none;
+    }
+    #aside-content {
+      display: none !important;
+    }
+    #page-header #site-info #site-title {
+      font-size: 1.5em;
+      letter-spacing: 2px !important;
+    }
+    #page-header #site-info #site-subtitle {
+      font-size: 1em;
+    }
+    #page-header #page-site-info #site-title {
+      font-size: 2em;
+      letter-spacing: 2px !important;
+    }
+    #footer #footer-wrap {
+      padding: 10px 0;
+    }
+  }

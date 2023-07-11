@@ -1,0 +1,66 @@
+# Header
+menu:
+  主页: / 
+  归档: /archives/
+  说说: /talks/
+  友链: /link/ 
+  留言: /comments/
+  模板: /wheels/
+rss: /atom.xml
+
+home:
+  style: default           # default, detail
+
+favicon:                   # Path to the custom favicon (e.g. "/favicon.png" if your favicon file is located at /source/favicon.png)
+
+# Banner
+banner:
+  enable: true            # Display banner
+  url: /img/banner.png
+  position: center         # Specifies the alignment of the image, see the "object-position" property in CSS
+  onAllPages: true         # Display banner on all pages
+
+# Appearence
+hue: 270                   # The hue of the theme color (e.g. red: 0, orange: 60, blue: 260, purple: 300, pink: 345)
+
+# Sidebar
+sidebar:
+  widgets:                 # Plugins to be enabled (profile, category, tag, archive, recent_posts)
+    normal:                # Scroll along with the page
+      - profile
+    sticky:                # Stick to the top of the page
+      - category
+      - tag
+      - archive
+      - recent_posts
+
+# Widget behavior
+archive_type: 'monthly'
+recent_posts_limits: 5
+
+# Personal info
+avatar: /img/myavatar.jpg
+author: EveSunMaple
+subtitle: This is the subtitle
+links:
+  - name: 知乎
+    icon: fa-brands fa-zhihu      # Find icon codes at https://fontawesome.com/search
+    url: https://www.zhihu.com/people/sunmaple-20
+  - name: BiliBili
+    icon: fa-brands fa-bilibili
+    url: https://space.bilibili.com/438392347?spm_id_from=333.1007.0.0
+  - name: GitHub
+    icon: fa-brands fa-github
+    url: https://github.com/EveSunMaple
+  - name: email
+    icon: fa-solid fa-envelope
+    url: mailto:evesunmaple@outlook.com
+  - name: music
+    icon: fa-solid fa-cloud-music
+    url: https://music.saroprock.com
+
+comment:
+  valine:
+    enable: true
+    appId: CqO3N7bXHAFURAcDVE1BGQWy-MdYXbMMI
+    appKey: xxFIHrKeJzP35Sm7jmHCgdhV

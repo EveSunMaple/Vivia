@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "72a6bcbb5ff30962",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ca316adc0efad29",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "261e2d39481ab371",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3a97d912670a1bcd",
+    "type": "split",
+    "children": [
+      {
+        "id": "98a085e87edec89e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f74700c421d04176",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5b69486199f4a68b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#include",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "58e25e6cfacf237e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ed5e83c20782fe83",
+    "type": "split",
+    "children": [
+      {
+        "id": "40ef612dde1d478a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09bc2f19a9145055",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1f9f7406cd47037f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "06d0da2c8bc853a1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f4e3f25d85ba67ba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_posts/OI学习笔记/图论/【图论】双连通分量.md"
+              }
+            }
+          },
+          {
+            "id": "51e386ad764f27fa",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 278.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "51e386ad764f27fa",
+  "lastOpenFiles": [
+    "_posts/7月11日比赛题解备份.md",
+    "_posts/生活笔记/别像弱智一样提问.md",
+    "_posts/生活笔记/如何摆脱欲望绑架？.md",
+    "images/stupid_questions/stupid_questions.png.md",
+    "images/what-time-to-use-image.png.md",
+    "images/stupid_questions/stupid_02-no-target.png.md",
+    "images/stupid_questions",
+    "images",
+    "_posts/生活笔记/信奥队五月竞赛总结反思.md",
+    "_posts/OI学习笔记/数论/【数论】gcd、exgcd、质数筛法、逆元与同余方程组复习笔记.md",
+    "未命名",
+    "_posts/OI学习笔记/数据结构/【数据结构】__int128.md",
+    "wheels/index.md",
+    "_posts/OI学习笔记/图论/【图论】最短路.md",
+    "_posts/OI学习笔记/图论/【图论】割边与割点.md",
+    "_posts/OI学习笔记/图论/【图论】强连通分量.md",
+    "_posts/OI学习笔记/搜索/【搜索】优先队列BFS.md",
+    "_posts/OI学习笔记/数据结构/【数据结构】邻接表与链式前向星.md",
+    "wheels",
+    "Template/Front-matter.md",
+    "2023-07-04.md",
+    "未命名.canvas",
+    "_posts/OI学习笔记/图论/【图论】双连通分量.md",
+    "_posts/OI学习笔记/动态规划/【动态规划】背包问题.md",
+    "_posts/OI学习笔记/数论",
+    "_posts/OI学习笔记/动态规划/【动态规划】状态压缩DP.md",
+    "_posts/OI学习笔记/动态规划/【动态规划】LIS与LCS（最长上升子序列）.md",
+    "img/code-wallpaper-18.png",
+    "fonts/NewFont.ttf",
+    "fonts/YunFont.ttf",
+    "fonts/FamilyFont.ttf",
+    "gallery/index.md",
+    "gallery",
+    "_posts/Qexo文章发布测试.md",
+    "talks/index.md",
+    "talks",
+    "pub/talks/index.md",
+    "_posts/OI学习笔记/图论/未命名.md",
+    "img/myavatar.jpg",
+    "img/myavatar .jpg",
+    "img/zdl1.webp"
+  ]
+}
