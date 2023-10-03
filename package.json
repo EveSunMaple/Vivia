@@ -49,7 +49,7 @@
     "hexo-theme-vivia": "^0.2.0",
     "hexo-word-counter": "^0.1.0",
     "hexo-wordcount": "^6.0.1",
-    "katex": "^0.16.7",
+    "katex": "^0.16.9",
     "typed.js": "^2.0.16",
     "valine": "^1.5.1"
   },
